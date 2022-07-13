@@ -15,7 +15,10 @@ use Inertia\Inertia;
 |
 */
 Route::get('/', function () {
-       return Inertia::render('landing');
+       return Inertia::render('landing',[
+        'a' => 'your',
+        'judul' => 'YOUR REBAHAN PARTNER'
+       ]);
 });
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [
