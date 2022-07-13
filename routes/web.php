@@ -18,8 +18,9 @@ Route::get('/', function () {
        return Inertia::render('landing',[
         'a' => 'YOUR',
         'b' => 'REBAHAN',
+        'c'=>'PARTNER',
         'judul' => 'YOUR REBAHAN PARTNER',
-        'deskripsi' => ''
+        'deskripsi' => 'aasdada'
        ]);
 });
 // Route::get('/', function () {
