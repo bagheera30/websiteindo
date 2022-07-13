@@ -16,8 +16,10 @@ use Inertia\Inertia;
 */
 Route::get('/', function () {
        return Inertia::render('landing',[
-        'a' => 'your',
-        'judul' => 'YOUR REBAHAN PARTNER'
+        'a' => 'YOUR',
+        'b' => 'REBAHAN',
+        'judul' => 'YOUR REBAHAN PARTNER',
+        'deskripsi' => ''
        ]);
 });
 // Route::get('/', function () {
