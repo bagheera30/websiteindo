@@ -4,7 +4,7 @@ import { Link, Head } from '@inertiajs/inertia-react';
 export default function landing(props){
     return(
         <>
-        <head>your rebahan</head>
+        <Head title="YOUR REBAHAN PARTNER" />
         <div className="">
             <div className="mt-4 flex">
                 YOUR<svg width="20" height="20
