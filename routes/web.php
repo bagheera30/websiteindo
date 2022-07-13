@@ -20,7 +20,6 @@ Route::get('/', function () {
         'b' => 'REBAHAN',
         'c'=>'PARTNER',
         'judul' => 'YOUR REBAHAN PARTNER',
-        'deskripsi' => 'aasdada'
        ]);
 });
 // Route::get('/', function () {
