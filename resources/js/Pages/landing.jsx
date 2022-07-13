@@ -6,7 +6,13 @@ export default function landing(props){
         <>
         <head>your rebahan</head>
         <div className="">
-            your
+            <div>
+                YOUR
+            </div>
+            <div>
+            REBAHAN
+            </div>
+            PARTNER
         </div>
         </>
     )
