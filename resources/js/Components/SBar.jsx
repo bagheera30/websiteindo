@@ -21,16 +21,26 @@ const SBar = () => {
                     </div>
                 </div>
                 <div>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text">Your Email</span>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Your Email</span>
                         </label>
-                        <label class="input-group input-group-vertical">
+                        <label className="input-group input-group-vertical">
                             <span>Email</span>
                             <input
                                 type="text"
                                 placeholder="info@site.com"
-                                class="input input-bordered"
+                                className="input input-bordered"
+                            />
+                        </label>
+                    </div>
+                    <div className="form-control">
+                        <label className="input-group input-group-vertical">
+                            <span>Password</span>
+                            <input
+                                type="password"
+                                placeholder="Your Password"
+                                className="input input-bordered"
                             />
                         </label>
                     </div>
