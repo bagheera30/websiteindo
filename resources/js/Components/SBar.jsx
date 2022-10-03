@@ -40,6 +40,19 @@ const SBar = () => {
                                 />
                             </label>
                         </div>
+                        <div>
+                            <Link
+                                href={route("register")}
+                                className="font-bold link link-hover m-8"
+                            >
+                                Register
+                            </Link>
+                        </div>
+                        <div>
+                            <button className="btn btn-outline btn-info my-5   ">
+                                login
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
